@@ -63,12 +63,12 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px 80px;
-    margin-top: 80px;
+    padding: 40px 80px;
+  
 }
 .hero{
     width: 100%;
-   
+    margin-top: 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -76,6 +76,8 @@ header{
     gap: 20px;
     background-color: black;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 20px;
+    
   
 }
 .intro{
@@ -91,7 +93,7 @@ header{
 }
 .img{
     width: 49%;
- 
+   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -118,14 +120,102 @@ header{
     color: white;
     font-size: 1rem;
 }
+.cardsSec{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    
+}
+.content-para{
+    width: 100%;
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+}
+.cardHead{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: goldenrod;
+
+}
+.cardHeads{
+    padding: 10px 40px;
+    border: 2px solid goldenrod;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: goldenrod;
+    margin-bottom: 20px;
+}
+.card{
+    width: 300px;
+    border: 1px solid goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+
+}
+.card-img{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    background-color: aqua;
+    
+}
+.card-img > img{
+    width: 100%;
+    height: 200px;
+}
+.card-title{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    color: goldenrod;
+    text-transform: uppercase;
+}
 
 
 @media (min-width:1400px){
-    .hero{
+    .hero,.cardsSec{
         width: 1280px;
     }
 }
 
+@media (max-width:800px){
+    .cardsSec{
+        justify-content: space-around;
+    }
+}
 
 @media (max-width:750px){
     header{
@@ -148,4 +238,5 @@ header{
     .head,.para{
         text-align: center;
     }
+   
 }
