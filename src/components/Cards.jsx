@@ -17,7 +17,7 @@ import img14 from './images/choclate.avif'
 import img15 from './images/straw.jpg'
 import img16 from './images/moose.jfif'
 
-
+export {img1}
 
 
 

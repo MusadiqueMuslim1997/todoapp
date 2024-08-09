@@ -204,6 +204,90 @@ header{
     text-transform: uppercase;
 }
 
+footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    color: goldenrod;
+    font-family: cursive;
+    background-color: black;
+    border-top: 1px solid goldenrod;
+    padding: 20px 80px;
+}
+.box{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    border: 4px solid goldenrod;
+    background-color: black;
+}
+.headItem{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.itemImage{
+    width: 100%;
+    /* height: 250px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.itemImage > img{
+    width: 100%;
+    /* height: 250px; */
+}
+.itemBtn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.itemBtn > button{
+    padding: 8px 16px;
+    border: none;
+    background-color: goldenrod;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+}
+.description{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.des,.price{
+    width: 100%;
+    color: white;
+    font-size: 1rem;
+}
+.silver{
+    color: silver;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.gold{
+    padding: 8px 14px;
+    background-color: goldenrod;
+    text-transform: uppercase;
+    font-weight: bolder;
+    
+}
+
 
 @media (min-width:1400px){
     .hero,.cardsSec{
@@ -218,7 +302,7 @@ header{
 }
 
 @media (max-width:750px){
-    header{
+    header,footer{
         padding: 20px 40px;
     }
     .main{
@@ -238,5 +322,6 @@ header{
     .head,.para{
         text-align: center;
     }
+   
    
 }
