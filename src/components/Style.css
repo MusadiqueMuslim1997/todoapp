@@ -14,6 +14,7 @@ header{
     position: fixed;
     top: 0;
     z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .logo{
 
@@ -52,4 +53,36 @@ header{
     background-color: goldenrod;
     color: white !important;
     cursor: pointer;
+}
+.hero{
+    width: 100%;
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    margin-top: 80px;
+}
+.intro{
+    width: 45%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: aqua;
+}
+.img{
+    width: 45%;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    object-fit: cover;
+
+}
+.img > img{
+    width: 100%;
 }
