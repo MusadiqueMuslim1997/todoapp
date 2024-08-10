@@ -12,9 +12,10 @@ const NavBar = () => {
    <>
    <header>
   <div className="logo"><FontAwesomeIcon icon={faSpoon} /> Resturant</div>
-<div className="list">
+<a href="https://github.com/MusadiqueMuslim1997" target='blank'><div className="list">
   <FontAwesomeIcon icon={faGithub}/>
 </div>
+</a>
    </header>
    
    </>
