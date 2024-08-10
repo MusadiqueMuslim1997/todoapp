@@ -15,6 +15,9 @@ const Chikcken = () => {
     else{
          event.target.innerText = 'Hide Details'
     }
+
+
+const info = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo autem similique alias ex modi dolor sit fugit ipsum enim nobis nostrum tenetur ipsa adipisci, ad a quibusdam at, incidunt animi.'    
    }
   return (
    <section className="main">

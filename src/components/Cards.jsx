@@ -56,90 +56,94 @@ const Cards = () => {
      <div className="card-title">Chicken Biryani</div>
      </div>
      </Link>
-     <div className="card">
+     <Link to = "/beef"><div className="card">
      <div className="card-img"><img src={img2} alt="" /></div>
      <div className="card-title">Beef Biryani</div>
      </div>
+     </Link>
 
-     <div className="card">
+    <Link to="/mutton"> <div className="card">
      <div className="card-img"><img src={img3} alt="" /></div>
      <div className="card-title">Mutton Biryani</div>
      </div>
-
-     <div className="card">
+     </Link>
+     <Link to ="/sindhi"><div className="card">
      <div className="card-img"><img src={img4} alt="" /></div>
      <div className="card-title">Sindhi Biryani</div>
      </div>
-
+     </Link>
      <div className="cardHead">
        <div className="cardHeads"> Kabab</div>
         </div>
-     <div className="card">
+        <Link to ="/chapli">  <div className="card">
      <div className="card-img"><img src={img5} alt="" /></div>
      <div className="card-title">Chapli Kabab</div>
      </div>
-
+     </Link>
    
-     <div className="card">
+     <Link to = "/seekh"> <div className="card">
      <div className="card-img"><img src={img6} alt="" /></div>
      <div className="card-title">Seekh Kabab</div>
      </div>
-
-     <div className="card">
+     </Link>
+     <Link to = "/reshmi">  <div className="card">
      <div className="card-img"><img src={img7} alt="" /></div>
      <div className="card-title">Reshmi Kabab</div>
      </div>
-     <div className="card">
+     </Link>
+     <Link to = "/shami">  <div className="card">
      <div className="card-img"><img src={img8} alt="" /></div>
      <div className="card-title">Shami Kebab</div>
      </div>
-
+     </Link>
      <div className="cardHead">
        <div className="cardHeads"> Pizza</div>
         </div>
 
-     <div className="card">
+     <Link><div className="card">
      <div className="card-img"><img src={img9} alt="" /></div>
      <div className="card-title">Cuban Pizza</div>
      </div>
-
-     <div className="card">
+     </Link>
+     <Link> <div className="card">
      <div className="card-img"><img src={img10} alt="" /></div>
      <div className="card-title">Roman Pizza</div>
      </div>
-
-     <div className="card">
+     </Link>
+     <Link><div className="card">
      <div className="card-img"><img src={img11} alt="" /></div>
      <div className="card-title">Sicilian Pizza</div>
      </div>
-     <div className="card">
+     </Link> 
+     <Link> <div className="card">
      <div className="card-img"><img src={img12} alt="" /></div>
      <div className="card-title">BBQ Chicken Pizza</div>
      </div>
-
+     </Link>
      <div className="cardHead">
        <div className="cardHeads"> Ice Cream</div>
         </div>
        
-     <div className="card">
+        <Link><div className="card">
      <div className="card-img"><img src={img13} alt="" /></div>
      <div className="card-title">Vanilla</div>
      </div>
-
-     <div className="card">
+     </Link> 
+     <Link> <div className="card">
      <div className="card-img"><img src={img14} alt="" /></div>
      <div className="card-title">Chocolate</div>
      </div>
-
-     <div className="card">
+     </Link>
+     <Link> <div className="card">
      <div className="card-img"><img src={img15} alt="" /></div>
      <div className="card-title">Strawberry</div>
      </div>
-     <div className="card">
+     </Link>
+     <Link> <div className="card">
      <div className="card-img"><img src={img16} alt="" /></div>
      <div className="card-title">Moose Tracks</div>
      </div>
-
+     </Link>
      </div>
 
     </section>

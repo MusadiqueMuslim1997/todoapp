@@ -5,7 +5,7 @@ import "../components/Style.css";
 import { img1 } from '../components/Cards';
 
 
-const Beef = () => {
+const Seekh = () => {
    const [show, setShow] =useState(false);
    let handleShow = () =>{
     setShow(!show)
@@ -24,7 +24,7 @@ const Beef = () => {
     <div className="box">
 
     <div className="headItem">
-        <div className="cardHeads">Beef Biryani</div>
+        <div className="cardHeads">Seekh Kabab</div>
       </div>
 
       <div className="itemImage"><img src={img1} alt="" /></div>
@@ -37,7 +37,7 @@ const Beef = () => {
      {show &&  <div className="description">
         <div className="des"><span className='silver'>Description:</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
             Illo autem similique alias ex modi dolor sit fugit ipsum enim nobis nostrum tenetur ipsa adipisci, ad a quibusdam at, incidunt animi.</div>
-        <div className="price" ><span className='gold'>Price: Rs.300</span> </div>
+        <div className="price" ><span className='gold'>Price: Rs.1100</span> </div>
        </div>
     }
     </div>
@@ -45,4 +45,4 @@ const Beef = () => {
   )
 }
 
-export default Beef
+export default Seekh

@@ -10,8 +10,7 @@ import Chikcken from './pages/Chikcken'
 
 
 function App() {
- 
-
+  
   return (
     <>
 <NavBar/>
