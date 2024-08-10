@@ -257,8 +257,17 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 .itemBtn > button{
+    padding: 8px 16px;
+    border: none;
+    background-color: goldenrod;
+    color: white;
+    font-size: 1rem;
+    cursor:pointer;
+}
+.itemBtn > a > button{
     padding: 8px 16px;
     border: none;
     background-color: goldenrod;
