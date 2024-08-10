@@ -18,7 +18,7 @@ import img14 from './images/choclate.avif'
 import img15 from './images/straw.jpg'
 import img16 from './images/moose.png'
 
-export {img1}
+export {img1,img2,img3,img4,img5,img6,img7,img8,img9,img10,img11,img12,img13,img14,img15,img16}
 
 
 

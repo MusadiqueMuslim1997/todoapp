@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom";
+import NavBar from '../components/NavBar';
 
 import "../components/Style.css";
-import { img1 } from '../components/Cards';
+import { img10 } from '../components/Cards';
 
 
 const Roman = () => {
@@ -20,6 +21,7 @@ const Roman = () => {
 
    }
   return (
+    <> <NavBar/>
    <section className="main">
     <div className="box">
 
@@ -27,7 +29,7 @@ const Roman = () => {
         <div className="cardHeads">Roman Pizza</div>
       </div>
 
-      <div className="itemImage"><img src={img1} alt="" /></div>
+      <div className="itemImage"><img src={img10} alt="" /></div>
       <div className="itemBtn">
 
         <button onClick={handleShow}>View Detail</button>
@@ -42,6 +44,7 @@ const Roman = () => {
     }
     </div>
    </section>
+   </>
   )
 }
 

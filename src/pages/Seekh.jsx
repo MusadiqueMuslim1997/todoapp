@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom";
+import NavBar from '../components/NavBar';
 
 import "../components/Style.css";
-import { img1 } from '../components/Cards';
+import { img6 } from '../components/Cards';
 
 
 const Seekh = () => {
@@ -20,6 +21,7 @@ const Seekh = () => {
 
    }
   return (
+    <> <NavBar/>
    <section className="main">
     <div className="box">
 
@@ -27,7 +29,7 @@ const Seekh = () => {
         <div className="cardHeads">Seekh Kabab</div>
       </div>
 
-      <div className="itemImage"><img src={img1} alt="" /></div>
+      <div className="itemImage"><img src={img6} alt="" /></div>
       <div className="itemBtn">
 
         <button onClick={handleShow}>View Detail</button>
@@ -42,6 +44,7 @@ const Seekh = () => {
     }
     </div>
    </section>
+   </>
   )
 }
 

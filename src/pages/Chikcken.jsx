@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom";
+import NavBar from '../components/NavBar';
 
 import "../components/Style.css";
 import { img1 } from '../components/Cards';
@@ -17,9 +18,10 @@ const Chikcken = () => {
     }
 
 
-const info = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo autem similique alias ex modi dolor sit fugit ipsum enim nobis nostrum tenetur ipsa adipisci, ad a quibusdam at, incidunt animi.'    
+
    }
   return (
+    <> <NavBar/>
    <section className="main">
     <div className="box">
 
@@ -42,6 +44,7 @@ const info = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo aut
     }
     </div>
    </section>
+   </>
   )
 }
 
