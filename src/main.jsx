@@ -10,6 +10,10 @@ import Chapli from './pages/Chapli.jsx';
 import Seekh from './pages/Seekh.jsx';
 import Reshmi from './pages/Reshmi.jsx';
 import Shami from './pages/Shami.jsx';
+import Cuban from './pages/Cuban.jsx';
+import Roman from './pages/Roman.jsx';
+import Sicilian from './pages/Sicilian.jsx';
+import Bbq from './pages/Bbq.jsx';
 
 const router = createBrowserRouter([
   {
@@ -47,6 +51,22 @@ const router = createBrowserRouter([
   {
     path: '/shami',
     element: <Shami />,
+  },
+  {
+    path: '/cuban',
+    element: <Cuban />,
+  },
+  {
+    path: '/roman',
+    element: <Roman />,
+  },
+  {
+    path: '/sicilian',
+    element: <Sicilian />,
+  },
+  {
+    path: '/bbq',
+    element: <Bbq />,
   },
 ]);
 
