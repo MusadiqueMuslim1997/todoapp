@@ -16,8 +16,7 @@ const HeroSection = () => {
         Voluptatum nihil ducimus libero aut accusamus! Est, neque fugiat eum,
         corrupti quaerat nisi cupiditate necessitatibus sint obcaecati explicabo possimus culpa ipsam sapiente.
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-        Voluptatem officiis cupiditate perferendis magni? Cumque sed modi deserunt 
-        voluptatibus et a, rem illo. Dolorem suscipit quos rem dolore, blanditiis corrupti delectus?
+        
        </div>
 
 

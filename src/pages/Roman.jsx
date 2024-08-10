@@ -26,7 +26,7 @@ const Roman = () => {
     <div className="box">
 
     <div className="headItem">
-        <div className="cardHeads">Roman Pizza</div>
+        <div className="cardHeads cardHeader">Roman Pizza</div>
       </div>
 
       <div className="itemImage"><img src={img10} alt="" /></div>

@@ -26,7 +26,7 @@ const Strawberry = () => {
     <div className="box">
 
     <div className="headItem">
-        <div className="cardHeads">Strawberry</div>
+        <div className="cardHeads cardHeader">Strawberry</div>
       </div>
 
       <div className="itemImage"><img src={img15} alt="" /></div>

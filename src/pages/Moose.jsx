@@ -26,7 +26,7 @@ const Moose = () => {
     <div className="box">
 
     <div className="headItem">
-        <div className="cardHeads">Moose Tracks</div>
+        <div className="cardHeads cardHeader">Moose Tracks</div>
       </div>
 
       <div className="itemImage"><img src={img16} alt="" /></div>

@@ -26,7 +26,7 @@ const Bbq = () => {
     <div className="box">
 
     <div className="headItem">
-        <div className="cardHeads">Bbq Chicken Pizza</div>
+        <div className="cardHeads cardHeader">Bbq Chicken Pizza</div>
       </div>
 
       <div className="itemImage"><img src={img12} alt="" /></div>

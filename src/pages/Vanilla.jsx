@@ -26,7 +26,7 @@ const Vanilla = () => {
     <div className="box">
 
     <div className="headItem">
-        <div className="cardHeads">Vanilla</div>
+        <div className="cardHeads cardHeader">Vanilla</div>
       </div>
 
       <div className="itemImage"><img src={img13} alt="" /></div>
