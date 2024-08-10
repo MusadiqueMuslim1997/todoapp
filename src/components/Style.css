@@ -358,6 +358,9 @@ footer{
     .list{
         font-size: 1.5rem;
     }
+    .hero{
+        padding: 0px;
+    }
 }
 @media (max-width:370px){
     .card{
