@@ -124,22 +124,22 @@ const Cards = () => {
        <div className="cardHeads"> Ice Cream</div>
         </div>
        
-        <Link><div className="card">
+        <Link to = "vanilla"><div className="card">
      <div className="card-img"><img src={img13} alt="" /></div>
      <div className="card-title">Vanilla</div>
      </div>
      </Link> 
-     <Link> <div className="card">
+     <Link to = "chocolate"> <div className="card">
      <div className="card-img"><img src={img14} alt="" /></div>
      <div className="card-title">Chocolate</div>
      </div>
      </Link>
-     <Link> <div className="card">
+     <Link to = "strawberry"> <div className="card">
      <div className="card-img"><img src={img15} alt="" /></div>
      <div className="card-title">Strawberry</div>
      </div>
      </Link>
-     <Link> <div className="card">
+     <Link to = "moose"> <div className="card">
      <div className="card-img"><img src={img16} alt="" /></div>
      <div className="card-title">Moose Tracks</div>
      </div>

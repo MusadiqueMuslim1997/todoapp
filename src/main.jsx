@@ -14,6 +14,10 @@ import Cuban from './pages/Cuban.jsx';
 import Roman from './pages/Roman.jsx';
 import Sicilian from './pages/Sicilian.jsx';
 import Bbq from './pages/Bbq.jsx';
+import Vanilla from './pages/Vanilla.jsx';
+import Chocolate from './pages/Chocolate.jsx';
+import Strawberry from './pages/Strawberry.jsx';
+import Moose from './pages/Moose.jsx';
 
 const router = createBrowserRouter([
   {
@@ -67,6 +71,22 @@ const router = createBrowserRouter([
   {
     path: '/bbq',
     element: <Bbq />,
+  },
+  {
+    path: '/vanilla',
+    element: <Vanilla />,
+  },
+  {
+    path: '/chocolate',
+    element: <Chocolate />,
+  },
+  {
+    path: '/strawberry',
+    element: <Strawberry />,
+  },
+  {
+    path: '/moose',
+    element: <Moose />,
   },
 ]);
 
