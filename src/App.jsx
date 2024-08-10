@@ -14,11 +14,11 @@ function App() {
 
   return (
     <>
-{/* <NavBar/>
+<NavBar/>
 <HeroSection/>
 <Cards/>
-<Footer/> */}
-<Chikcken/>
+<Footer/>
+
     </>
   )
 }

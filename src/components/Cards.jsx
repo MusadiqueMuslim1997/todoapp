@@ -1,5 +1,6 @@
 import React from 'react'
 import './Style.css'
+import { Link } from "react-router-dom";
 import img1 from './images/chicken.avif'
 import img2 from './images/beef.jpg'
 import img3 from './images/mutton.jpg'
@@ -28,6 +29,11 @@ export {img1}
 
 
 const Cards = () => {
+ 
+
+
+ 
+  
   return (
     
     <section className='main'>
@@ -42,12 +48,14 @@ const Cards = () => {
        <div className="cardHead">
        <div className="cardHeads"> Biryani</div>
         </div>
+      
 
-     <div className="card">
+     
+     <Link to="/chicken"><div className="card">
      <div className="card-img"><img src={img1} alt="" /></div>
      <div className="card-title">Chicken Biryani</div>
      </div>
-
+     </Link>
      <div className="card">
      <div className="card-img"><img src={img2} alt="" /></div>
      <div className="card-title">Beef Biryani</div>

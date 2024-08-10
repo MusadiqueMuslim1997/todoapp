@@ -202,6 +202,10 @@ header{
     font-size: 1.5rem;
     color: goldenrod;
     text-transform: uppercase;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
 }
 
 footer{
